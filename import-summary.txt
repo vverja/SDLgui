@@ -1,0 +1,126 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea/
+* .idea/SDLgui.iml
+* .idea/codeStyles/
+* .idea/codeStyles/Project.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/workspace.xml
+* Android.mk
+* doc/
+* doc/allclasses-frame.html
+* doc/allclasses-noframe.html
+* doc/com/
+* doc/com/zebra/
+* doc/com/zebra/adc/
+* doc/com/zebra/adc/decoder/
+* doc/com/zebra/adc/decoder/BarCodeReader.AutoFocusCallback.html
+* doc/com/zebra/adc/decoder/BarCodeReader.DecodeCallback.html
+* doc/com/zebra/adc/decoder/BarCodeReader.ErrorCallback.html
+* doc/com/zebra/adc/decoder/BarCodeReader.OnZoomChangeListener.html
+* doc/com/zebra/adc/decoder/BarCodeReader.ParamNum.html
+* doc/com/zebra/adc/decoder/BarCodeReader.ParamVal.html
+* doc/com/zebra/adc/decoder/BarCodeReader.Parameters.html
+* doc/com/zebra/adc/decoder/BarCodeReader.PictureCallback.html
+* doc/com/zebra/adc/decoder/BarCodeReader.PreviewCallback.html
+* doc/com/zebra/adc/decoder/BarCodeReader.PropertyNum.html
+* doc/com/zebra/adc/decoder/BarCodeReader.ReaderInfo.html
+* doc/com/zebra/adc/decoder/BarCodeReader.Size.html
+* doc/com/zebra/adc/decoder/BarCodeReader.VideoCallback.html
+* doc/com/zebra/adc/decoder/BarCodeReader.html
+* doc/com/zebra/adc/decoder/class-use/
+* doc/com/zebra/adc/decoder/class-use/BarCodeReader.AutoFocusCallback.html
+* doc/com/zebra/adc/decoder/class-use/BarCodeReader.DecodeCallback.html
+* doc/com/zebra/adc/decoder/class-use/BarCodeReader.ErrorCallback.html
+* doc/com/zebra/adc/decoder/class-use/BarCodeReader.OnZoomChangeListener.html
+* doc/com/zebra/adc/decoder/class-use/BarCodeReader.ParamNum.html
+* doc/com/zebra/adc/decoder/class-use/BarCodeReader.ParamVal.html
+* doc/com/zebra/adc/decoder/class-use/BarCodeReader.Parameters.html
+* doc/com/zebra/adc/decoder/class-use/BarCodeReader.PictureCallback.html
+* doc/com/zebra/adc/decoder/class-use/BarCodeReader.PreviewCallback.html
+* doc/com/zebra/adc/decoder/class-use/BarCodeReader.PropertyNum.html
+* doc/com/zebra/adc/decoder/class-use/BarCodeReader.ReaderInfo.html
+* doc/com/zebra/adc/decoder/class-use/BarCodeReader.Size.html
+* doc/com/zebra/adc/decoder/class-use/BarCodeReader.VideoCallback.html
+* doc/com/zebra/adc/decoder/class-use/BarCodeReader.html
+* doc/com/zebra/adc/decoder/package-frame.html
+* doc/com/zebra/adc/decoder/package-summary.html
+* doc/com/zebra/adc/decoder/package-tree.html
+* doc/com/zebra/adc/decoder/package-use.html
+* doc/constant-values.html
+* doc/deprecated-list.html
+* doc/help-doc.html
+* doc/index-files/
+* doc/index-files/index-1.html
+* doc/index-files/index-10.html
+* doc/index-files/index-11.html
+* doc/index-files/index-12.html
+* doc/index-files/index-13.html
+* doc/index-files/index-14.html
+* doc/index-files/index-15.html
+* doc/index-files/index-16.html
+* doc/index-files/index-17.html
+* doc/index-files/index-18.html
+* doc/index-files/index-19.html
+* doc/index-files/index-2.html
+* doc/index-files/index-20.html
+* doc/index-files/index-21.html
+* doc/index-files/index-22.html
+* doc/index-files/index-23.html
+* doc/index-files/index-3.html
+* doc/index-files/index-4.html
+* doc/index-files/index-5.html
+* doc/index-files/index-6.html
+* doc/index-files/index-7.html
+* doc/index-files/index-8.html
+* doc/index-files/index-9.html
+* doc/index.html
+* doc/overview-tree.html
+* doc/package-list
+* doc/resources/
+* doc/resources/background.gif
+* doc/resources/tab.gif
+* doc/resources/titlebar.gif
+* doc/resources/titlebar_end.gif
+* doc/stylesheet.css
+* proguard.cfg
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* libs/arm64-v8a/libIAL.so => app/src/main/jniLibs/arm64-v8a/libIAL.so
+* libs/arm64-v8a/libSDL.so => app/src/main/jniLibs/arm64-v8a/libSDL.so
+* libs/arm64-v8a/libbarcodereader44.so => app/src/main/jniLibs/arm64-v8a/libbarcodereader44.so
+* libs/armeabi/libIAL.so => app/src/main/jniLibs/armeabi/libIAL.so
+* libs/armeabi/libSDL.so => app/src/main/jniLibs/armeabi/libSDL.so
+* libs/armeabi/libbarcodereader.so => app/src/main/jniLibs/armeabi/libbarcodereader.so
+* libs/armeabi/libbarcodereader43.so => app/src/main/jniLibs/armeabi/libbarcodereader43.so
+* libs/armeabi/libbarcodereader44.so => app/src/main/jniLibs/armeabi/libbarcodereader44.so
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
